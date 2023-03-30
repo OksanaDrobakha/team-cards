@@ -1,0 +1,22 @@
+li,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  .modal {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0.2;
+  }
+}
+
+.team-modal {
+  display: block;
+}
