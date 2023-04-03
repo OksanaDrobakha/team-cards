@@ -9,10 +9,11 @@ teamRefs.openModalTeam.addEventListener("click", toggleModal);
 teamRefs.closeModalTeam.addEventListener("click", toggleModal);
 
 teamRefs.backdropTeam.addEventListener("click", logBackdropClick);
+removeEventListener("keydown", closeModalTeam);
 
 function toggleModal() {
-  //   document.body.classList.toggle("open-modal-window");
-  //   teamRefs.modalTeam.classList.toggle("is-hidden");
+  // document.body.classList.toggle("open-modal-window");
+  // teamRefs.modalTeam.classList.toggle("is-hidden");
   teamRefs.backdropTeam.classList.toggle("is-hidden");
 }
 

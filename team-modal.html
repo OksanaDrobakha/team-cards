@@ -58,7 +58,7 @@
           />
         </svg>
       </div>
-      <script src="./js/theme.js"></script>
+      <!-- <script src="./js/theme.js"></script> -->
       <div><a href="#" data-open-modal-team>GoIT Students</a></div>
       <div class="team-backdrop is-hidden" data-backdrop-team>
         <div class="team-modal" data-modal-team>
@@ -67,13 +67,16 @@
               <use href="./image/symbol-defs.svg#icon-close"></use>
             </svg>
           </button>
-          <div>
-            <svg class="team-modal__logo">
+          <div class="team-modal__logo">
+            <svg class="team-modal__logo__light">
               <use href="./image/symbol-defs.svg#icon-UpperCode-light"></use>
             </svg>
+            <svg class="team-modal__logo__dark">
+              <use href="./image/symbol-defs.svg#icon-UpperCode-dark"></use>
+            </svg>
           </div>
-          <div>
-            <ul class="team-modal__list">
+          <div class="team-modal__list">
+            <ul class="team-modal__members">
               <li class="team-modal__card">
                 <img
                   class="team-modal__photo"
